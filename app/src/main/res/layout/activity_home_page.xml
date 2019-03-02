@@ -63,11 +63,12 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
-                android:id="@+id/hospital_button"
+                android:id="@+id/buttonLoginHospital"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
                 android:background="@drawable/button_shape_color"
+                android:onClick="toLoginPage"
                 android:padding="5dp"
                 android:text="مستشفى"
                 android:textColor="#ffffff"
@@ -76,20 +77,21 @@
                 app:layout_constraintStart_toEndOf="@+id/buttonLoginAdmin" />
 
             <Button
-                android:id="@+id/paramedic_button"
+                android:id="@+id/buttonLoginParamedic"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="15dp"
                 android:background="@drawable/button_shape_color"
+                android:onClick="toLoginPage"
                 android:padding="2dp"
                 android:text="مسعف"
                 android:textColor="#ffffff"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/hospital_button" />
+                app:layout_constraintStart_toEndOf="@+id/buttonLoginHospital" />
 
         </LinearLayout>
     </RelativeLayout>
