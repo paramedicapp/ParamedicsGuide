@@ -23,7 +23,10 @@
         <activity android:name=".add_hospitals_page" />
         <activity android:name=".paramedics_management_page" />
         <activity android:name=".add_paramedic_page" />
-        <activity android:name=".forgot_password_page"></activity>
+        <activity android:name=".forgot_password_page" />
+        <activity android:name=".by_voice"></activity>
+        <activity android:name=".new_case">
+        </activity>
     </application>
 
 </manifest>
